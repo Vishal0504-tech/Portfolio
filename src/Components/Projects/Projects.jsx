@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white ">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
-      <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-20 mt-8 pl-5">
+      <div className="grid grid-cols-1 p-4  sm:grid-cols-2 lg:grid-cols-4 gap-20 mt-8 pl-5">
         <ProjectCard
           title="HTML Webpage"
           main="this is a bloggin webpage created in  HTML and used some component library used some component library"
