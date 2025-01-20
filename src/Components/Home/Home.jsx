@@ -10,7 +10,7 @@ const Home = () => {
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           <TextChange/>
         </h1>
-        <p className="text md:text-2xl tracking-tight ">
+        <p className="text md:text-2xl tracking-tight pr-20 ">
         I am a frontend developer. I specialize in creating visually appealing and user-friendly web interfaces using technologies like HTML, CSS, JavaScript, and frameworks such as React.  
 
         </p>
@@ -19,7 +19,11 @@ const Home = () => {
         </button>
       </div>
       <div>
-        <img className="" src={avatarImg} alt="" />
+       <img
+          className="w-80 h-60 sm:w-60 sm:h-60 md:w-80 md:h-80  rounded-full object-cover "
+          src={avatarImg}
+          alt="Avatar img"
+        />
       </div>
     </div>
   );
