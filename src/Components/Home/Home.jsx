@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div>
        <img
-          className="w-screen h-60  sm:w-60 sm:h-60 md:w-80 md:h-80  rounded-full object-cover "
+          className="w-dvw h-60  sm:w-60 sm:h-60 md:w-80 md:h-80  rounded-full object-cover "
           src={avatarImg}
           alt="Avatar img"
         />
