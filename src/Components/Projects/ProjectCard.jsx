@@ -2,7 +2,7 @@ import React from "react";
 import bannerImg from "../../assets/photo-C8q0KQHG.webp";
 const ProjectCard = ({ title, main, demoLink }) => {
   return (
-    <div className="p-7 md:p-6 flex flex-col   w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl  ">
+    <div className="p-5 md:p-6 flex flex-col   w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl  ">
       <img className="p-4" src={bannerImg} alt="" />
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
