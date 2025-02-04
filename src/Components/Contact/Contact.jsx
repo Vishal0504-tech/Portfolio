@@ -16,7 +16,7 @@ const Contact = () => {
         </h3>
       </div>
 
-      <ul className="text-sm md:text-xl">
+      <ul className="text-sm md:text-xl pl-10">
         <li className="flex gap-1 items-center">
           <MdOutlineEmail size={20} />
           myemail@gmail.com
