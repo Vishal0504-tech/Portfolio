@@ -7,7 +7,7 @@ const Contact = () => {
   return (
    <div
       id="Contact"
-      className="flex justify-around gap-5 bg-[#0e0f10] text-white  md:p-20 sm:p-20  p-20 items-center"
+      className="flex justify-around  bg-[#0e0f10] text-white  md:p-20 sm:p-20  p-20 items-center"
     >
       <div>
         <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
